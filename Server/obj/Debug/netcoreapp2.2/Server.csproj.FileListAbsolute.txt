@@ -1,0 +1,14 @@
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/bin/Debug/netcoreapp2.2/Server.deps.json
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/bin/Debug/netcoreapp2.2/Server.runtimeconfig.json
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/bin/Debug/netcoreapp2.2/Server.runtimeconfig.dev.json
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/bin/Debug/netcoreapp2.2/Server.dll
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/bin/Debug/netcoreapp2.2/Server.pdb
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.csprojAssemblyReference.cache
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.csproj.CoreCompileInputs.cache
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.RazorAssemblyInfo.cache
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.RazorAssemblyInfo.cs
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.AssemblyInfoInputs.cache
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.AssemblyInfo.cs
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.RazorTargetAssemblyInfo.cache
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.dll
+/Users/franklin/Code/web/angular/angular-core/angular-core-user-register/Server/obj/Debug/netcoreapp2.2/Server.pdb
