@@ -1,5 +1,5 @@
 <img src="assets/single_user.png" alt="Single user" class="mx-auto d-block" />
-<form #form="ngForm" autocomplete="off" class="mb-4">
+<form #form="ngForm" autocomplete="off" class="mb-4" (submit)="onSubmit(form)">
   <div class="form-group">
     <label>Username</label>
     <input
