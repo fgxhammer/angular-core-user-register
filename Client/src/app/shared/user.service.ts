@@ -41,7 +41,7 @@ export class UserService {
       UserName: this.formModel.value.UserName,
       Email: this.formModel.value.Email,
       FullName: this.formModel.value.FullName,
-      Password: this.formModel.value.Password
+      Password: this.formModel.value.Passwords.Password
     };
     return this.http.post(this.baseURI, body);
   }
