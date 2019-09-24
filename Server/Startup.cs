@@ -40,7 +40,8 @@ namespace Server
             services.AddCors();
 
             // JWT authentication
-            var signingKey = Encoding.UTF8.GetBytes(Configuration["ApplicatoinSettings:JWT_Secret"].ToString());
+            var signingKey = Encoding.UTF8.GetBytes(Configuration["ApplicationSettings:JWT_Secret"].ToString());
+
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

@@ -66,7 +66,7 @@ namespace Server.Controllers
                     Subject = new ClaimsIdentity(new Claim[] {
                         new Claim("UserId", user.Id.ToString())
                     }),
-                    Expires = DateTime.UtcNow.AddMinutes(5),
+                    Expires = DateTime.UtcNow.AddMinutes(5), // Expiration time for JWT
                     SigningCredentials = new SigningCredentials(
                         new SymmetricSecurityKey(
                             Encoding.UTF8.GetBytes(_applicationSettings.JWT_Secret)),
