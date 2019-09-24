@@ -13,7 +13,22 @@ export class RegistrationComponent implements OnInit {
 
   onSubmit() {
     this.service.register().subscribe(
-      res => {},
+      (res: any) => {
+        if (res.succeded) {
+          this.service.formModel.reset();
+        } else {
+          res.errors.foreach(e => {
+            switch (e.code) {
+              case "DublicateUserName":
+                // Username is already taken
+                break;
+              default:
+                // Registration failed
+                break;
+            }
+          });
+        }
+      },
       err => {
         console.log(err);
       }

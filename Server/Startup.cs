@@ -32,6 +32,7 @@ namespace Server
             services.AddDbContext<AuthenticationContext>(options => options.UseSqlite(Configuration.GetConnectionString("SQLiteDB")));
             services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<AuthenticationContext>();
+            services.AddCors();
 
             services.Configure<IdentityOptions>(options =>
             {
@@ -59,6 +60,10 @@ namespace Server
             app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.UseCors(x => x.WithOrigins("http://localhost:4200")
+                .AllowAnyHeader()
+                .AllowAnyMethod());
         }
     }
 }
